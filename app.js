@@ -7,7 +7,7 @@ var config = {
 };
 
 app.get('/', function (request, response, next) {
-	response.send('explosions!');
+	response.send('explosions! - dude, change this text in github!');
 });
 
 
