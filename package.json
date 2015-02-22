@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AzidoGroup/azido-web/issues"
   },
-  "homepage": "https://github.com/AzidoGroup/azido-web"
+  "homepage": "https://github.com/AzidoGroup/azido-web",
+  "dependencies": {
+    "express": "4.11.x"
+  }
 }
