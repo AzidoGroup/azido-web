@@ -5,7 +5,8 @@
 			"script": "app.js",
 			"cwd": "[PATH HERE]",
 			"env": {
-				"NODE_ENV": "production"
+				"NODE_ENV": "production",
+				"port": 80
 			}
 		}
 	]
