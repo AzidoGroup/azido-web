@@ -1,0 +1,12 @@
+{
+	"apps": [
+		{
+			"name": "azido-web",
+			"script": "app.js",
+			"cwd": "[PATH HERE]",
+			"env": {
+				"NODE_ENV": "production"
+			}
+		}
+	]
+}
