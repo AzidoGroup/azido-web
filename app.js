@@ -3,7 +3,7 @@ console.log(process.env);
 var express = require('express');
 var app = express();
 var config = {
-	port: process.env.port || 3000
+	port: process.env.port || 9000
 };
 
 app.get('/', function (request, response, next) {
