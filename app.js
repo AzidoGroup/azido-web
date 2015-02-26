@@ -1,15 +1,18 @@
-console.log(process.env);
-
 var express = require('express');
 var app = express();
 var config = {
 	port: process.env.port || 9000
 };
 
-app.get('/', function (request, response, next) {
-	response.send('explosions! - dude, change this text in github!');
-});
+app.use('/public', express.static('public'));
 
+var Router = express.Router();
+var router = require('./routes/index')(app, Router);
+app.use('/', router);
+
+app.set('views', __dirname + '/views');
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'ejs');
 
 var server = app.listen(config.port, function () {
 	var host = server.address().address;
