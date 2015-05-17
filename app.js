@@ -1,8 +1,13 @@
 var express = require('express');
+var bodyParser = require('body-parser');
 var app = express();
 var config = {
 	port: process.env.port || 9000
 };
+
+app.use(bodyParser());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
 
 app.use('/public', express.static('public'));
 

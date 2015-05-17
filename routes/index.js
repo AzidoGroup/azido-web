@@ -3,6 +3,7 @@ module.exports = function (app, route) {
 	route
 		.all('*', function (request, response, next) {
 			// placeholder for catching each request
+			console.log(request.method, request.url);
 			next();
 		})
 	;
@@ -38,8 +39,23 @@ module.exports = function (app, route) {
 							+ referenceID + ":saleID=" + saleID + ":shopID=" + shopID)
 		 */
 
-		.get('/postback', function (request, response) {
-			response.send('OK');
+		.all('/postback', function (request, response) {
+			console.log(request.method, request.url);
+			console.log(request.query);
+			if (request.method === 'POST') {
+				console.log('body:', request.body);
+			}
+			if (request.query.result) {
+				var status = request.query.result.toString().toUpperCase();
+				return response.send(status);
+			}
+			response.send('DECLINED');
+		})
+
+		.all('/postback/nats', function (request, response) {
+			console.log('query:', request.query);
+			console.log('body:', request.body);
+			return response.send('*APPROVED*');
 		})
 
 		.get('/success', function (request, response) {
