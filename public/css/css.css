@@ -18,12 +18,36 @@ a:hover {
 }
 
 .wrapper {
-	width: 100%;
+	width: 1000px;
 	margin: 0 auto;
 }
 #content {
 	padding-top: 150px;
 }
+
+.slogan-wrapper {
+	width: 1000px;
+	margin: auto 50px;
+}
+
+.slogan-headline {
+	text-align: center;
+}
+
+.slogan-wrapper h1, .slogan-wrapper h3 {
+	text-align: center;
+}
+
+.slogan-container {
+	display: inline-block;
+	margin: 0;
+	width: 450px;
+}
+
+.slogan-container .left {
+	float: left;
+}
+
 .clear-left {
 	clear: left;
 }

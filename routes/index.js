@@ -3,7 +3,7 @@ module.exports = function (app, route) {
 	route
 		.all('*', function (request, response, next) {
 			// placeholder for catching each request
-			console.log(request.method, request.url);
+			//console.log(request.method, request.url);
 			next();
 		})
 	;
