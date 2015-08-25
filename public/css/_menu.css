@@ -1,0 +1,23 @@
+.menu-wrapper {
+	height: 30px;
+	background-color: white;
+}
+
+#menu {
+	background-color: white;
+	min-height: 30px;
+	/*border: 1px solid black;*/
+	text-align: left;
+}
+
+#menu ul {
+
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li {
+	float: right;
+	margin: 0 10px 0 0;
+	list-style-type: none;
+}
