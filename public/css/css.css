@@ -18,6 +18,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+#content h2 {
+	padding-top: 75px;
+}
+
 .wrapper {
 	width: 1000px;
 	margin: 0 auto;
