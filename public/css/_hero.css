@@ -1,0 +1,21 @@
+.hero {
+	width: 100%;
+	padding-top: 150px;
+	position: relative;
+}
+
+.hero video {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	width: 100%;
+	/*z-index: 0;*/
+	/*position: relative;*/
+}
+
+.hero-headline {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}

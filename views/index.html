@@ -15,26 +15,29 @@
 
     </head>
     <body>
+        <header>
+            <div class="container clearfix">
+                <h1 id="logo">
+                    Test Group
+                </h1>
+                <nav>
+                    <a href="/#service">Services</a>
+                    <a href="/#technology">Technology</a>
+                    <a href="/#jobs">Jobs</a>
+                    <a href="/#about">About</a>
+                    <a href="/#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="hero">
+            <video autoplay loop>
+                <source src="/public/assets/videos/azido-typing-hero.mp4" type="video/mp4" />
+                Your browser doesn't support HTML5 video. Here's a <a href="/public/assets/videos/azido-typing-hero.mp4">link</a> to download the video.
+            </video>
+            <h1 class="hero-headline">Some slogan here!</h1>
+        </div>
         <div class="wrapper">
-            <header>
-                <div class="container clearfix">
-                    <h1 id="logo">
-                        Test Group
-                    </h1>
-                    <nav>
-                        <a href="/#service">Services</a>
-                        <a href="/#technology">Technology</a>
-                        <a href="/#jobs">Jobs</a>
-                        <a href="/#about">About</a>
-                        <a href="/#contact">Contact</a>
-                    </nav>
-                </div>
-            </header>
             <div id="content">
-                <div class="hero">
-                    <img src="https://placeholdit.imgix.net/~text?txtsize=83&txt=1000%C3%97350%20Movie&w=1000&h=350" />
-                </div>
-                <h1 class="slogan-headline">Some slogan here!</h1>
                 <div class="slogan-wrapper">
                     <div class="slogan-container right">
                         <img src="https://placehold.it/450x400" />
@@ -52,7 +55,7 @@
                     </div>
                 </div>
 
-                <div id="service">
+                <div id="service" class="content-contianer">
                     <h2>Our Services</h2>
 
                     <h3>Development</h3>
@@ -73,7 +76,7 @@
                     </p>
                 </div>
 
-                <div id="technology">
+                <div id="technology" class="content-contianer">
                     <h2>Technology we work with</h2>
                     <h3>NodeJs, jQuery, Angular, MongoDB, MySQL</h3>
                     <p>
@@ -84,7 +87,7 @@
                     </p>
                 </div>
 
-                <div id="about">
+                <div id="about" class="content-contianer">
                     <h2>About Azido Group</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta justo in tellus porttitor non placerat dui pulvinar. Aliquam erat volutpat. Morbi ullamcorper libero sit amet tortor porta iaculis. Duis sit amet diam dolor. Mauris bibendum pharetra justo, sed ornare arcu scelerisque vitae. Integer molestie dignissim lacinia. Etiam sagittis consectetur iaculis. Pellentesque fringilla nulla at tortor dictum lobortis.
@@ -93,26 +96,29 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta justo in tellus porttitor non placerat dui pulvinar. Aliquam erat volutpat. Morbi ullamcorper libero sit amet tortor porta iaculis. Duis sit amet diam dolor. Mauris bibendum pharetra justo, sed ornare arcu scelerisque vitae. Integer molestie dignissim lacinia. Etiam sagittis consectetur iaculis. Pellentesque fringilla nulla at tortor dictum lobortis.
                         </p>
                 </div>
-                <div id="contact" class="contact">
-                    <h2>Contact us for free. No credit card required.</h2>
-                    <form class="contact-form">
-                        <div class="field">
-                            <label>name</label>
-                            <input type="text" placeholder="annie oakley" />
-                        </div>
-                        <div class="field">
-                            <label>email</label>
-                            <input type="email" placeholder="annie.oakley@example.com" />
-                        </div>
-                        <div class="field">
-                            <label>phone</label>
-                            <input type="phone" placeholder="888.451.4079" />
-                        </div>
-                        <div class="field">
-                            <label class="textarea-label">message</label>
-                            <textarea placeholder="hello, friend"></textarea>
-                        </div>
-                    </form>
+
+                <div id="contact" class="content-contianer contact">
+                    <div class="contact-wrapper">
+                        <h2>Contact us for free. No credit card required.</h2>
+                        <form class="contact-form">
+                            <div class="field">
+                                <label>name</label>
+                                <input type="text" placeholder="annie oakley" />
+                            </div>
+                            <div class="field">
+                                <label>email</label>
+                                <input type="email" placeholder="annie.oakley@example.com" />
+                            </div>
+                            <div class="field">
+                                <label>phone</label>
+                                <input type="phone" placeholder="888.451.4079" />
+                            </div>
+                            <div class="field">
+                                <label class="textarea-label">message</label>
+                                <textarea placeholder="hello, friend"></textarea>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

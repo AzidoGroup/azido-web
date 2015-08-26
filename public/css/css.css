@@ -1,5 +1,6 @@
 @import "_header.css";
 @import "_menu.css";
+@import "_hero.css";
 
 * {
 	font-family: 'Muli', sans-serif;
@@ -22,7 +23,7 @@ a:hover {
 	margin: 0 auto;
 }
 #content {
-	padding-top: 150px;
+	/*padding-top: 150px;*/
 }
 
 .slogan-wrapper {
@@ -47,9 +48,16 @@ a:hover {
 .slogan-container .left {
 	float: left;
 }
-
+.content-contianer {
+	margin-top: 50px;
+}
 .clear-left {
 	clear: left;
+}
+
+.contact-wrapper {
+	width: 600px;
+	margin: 0 auto;
 }
 
 .contact h3 {
