@@ -1,9 +1,11 @@
 @import "_header.css";
 @import "_menu.css";
 @import "_hero.css";
+@import "_footer.css";
 
 * {
 	font-family: 'Muli', sans-serif;
+	/*font-family: 'Arial', sans-serif;*/
 }
 
 input, textarea, select {

@@ -14,7 +14,8 @@ module.exports = function (app, route) {
         })
 
 		.get('/about', function (request, response) {
-            response.render('about.html');
+			response.status(418);
+			response.end();
         })
 
 		.get('/contact', function (request, response) {

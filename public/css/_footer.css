@@ -1,0 +1,24 @@
+.footer {
+	position: relative;
+	background-color: #0683c9;
+}
+
+.footer p {
+	font-size: 12px;
+	padding-top: 30px;
+	padding-right: 5px;
+	margin: 0 auto;
+	width: 1000px;
+	color: white;
+	text-align: right;
+}
+
+.footer p span {
+	color: red;
+	font-size: 14px;
+}
+
+.footer p span a {
+	text-decoration: none;
+	color: red;
+}
