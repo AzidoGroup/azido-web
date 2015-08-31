@@ -5,10 +5,13 @@
         <!-- css -->
         <link rel="stylesheet" href="/public/css/normalize.css" type="text/css" />
         <link rel="stylesheet" href="/public/css/css.css" type="text/css" />
+
         <link href='//fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
 
         <!-- js -->
         <script src="/public/vendor/jquery/dist/jquery.min.js" ></script>
+        <script src="/public/vendor/typed.js/dist/typed.min.js" ></script>
         <script src="/public/js/init.js" ></script>
 
         <meta name="google-site-verification" content="JREIPCWbN4JMy1lrL7JERZf7n5CFWHMPzVCubvpzOa4" />
@@ -21,7 +24,7 @@
                     <a href="#azido">Azido Group</a>
                 </h1>
                 <nav>
-                    <a href="#service">Services</a>
+                    <a href="#services">Services</a>
                     <a href="#technology">Technology</a>
                     <a href="#jobs">Jobs</a>
                     <a href="#about">About</a>
@@ -55,25 +58,40 @@
                     </div>
                 </div>
 
-                <div id="service" class="content-contianer">
+                <div id="services" class="content-contianer">
                     <h2>Our Services</h2>
-
-                    <h3>Development</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta justo in tellus porttitor non placerat dui pulvinar. Aliquam erat volutpat. Morbi ullamcorper libero sit amet tortor porta iaculis. Duis sit amet diam dolor. Mauris bibendum pharetra justo, sed ornare arcu scelerisque vitae. Integer molestie dignissim lacinia. Etiam sagittis consectetur iaculis. Pellentesque fringilla nulla at tortor dictum lobortis.
-                    </p>
-                    <h3>Research and Architecture</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta justo in tellus porttitor non placerat dui pulvinar. Aliquam erat volutpat. Morbi ullamcorper libero sit amet tortor porta iaculis. Duis sit amet diam dolor. Mauris bibendum pharetra justo, sed ornare arcu scelerisque vitae. Integer molestie dignissim lacinia. Etiam sagittis consectetur iaculis. Pellentesque fringilla nulla at tortor dictum lobortis.
-                    </p>
-                    <h3>Training and Consulting</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta justo in tellus porttitor non placerat dui pulvinar. Aliquam erat volutpat. Morbi ullamcorper libero sit amet tortor porta iaculis. Duis sit amet diam dolor. Mauris bibendum pharetra justo, sed ornare arcu scelerisque vitae. Integer molestie dignissim lacinia. Etiam sagittis consectetur iaculis. Pellentesque fringilla nulla at tortor dictum lobortis.
-                    </p>
-                    <h3>Software Quality Auditing</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta justo in tellus porttitor non placerat dui pulvinar. Aliquam erat volutpat. Morbi ullamcorper libero sit amet tortor porta iaculis. Duis sit amet diam dolor. Mauris bibendum pharetra justo, sed ornare arcu scelerisque vitae. Integer molestie dignissim lacinia. Etiam sagittis consectetur iaculis. Pellentesque fringilla nulla at tortor dictum lobortis.
-                    </p>
+                    <div class="service left">
+                        <h3>Development</h3>
+                        <div class="terminal-wrapper">
+                            <pre class="terminal"></pre>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta justo in tellus porttitor non placerat dui pulvinar. Aliquam erat volutpat. Morbi ullamcorper libero sit amet tortor porta iaculis. Duis sit amet diam dolor. Mauris bibendum pharetra justo, sed ornare arcu scelerisque vitae. Integer molestie dignissim lacinia. Etiam sagittis consectetur iaculis. Pellentesque fringilla nulla at tortor dictum lobortis.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <div class="service-right">
+                            <h3>Research and Architecture</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta justo in tellus porttitor non placerat dui pulvinar. Aliquam erat volutpat. Morbi ullamcorper libero sit amet tortor porta iaculis. Duis sit amet diam dolor. Mauris bibendum pharetra justo, sed ornare arcu scelerisque vitae. Integer molestie dignissim lacinia. Etiam sagittis consectetur iaculis. Pellentesque fringilla nulla at tortor dictum lobortis.</p>
+                        </div>
+                        <img src="http://placehold.it/400x200" />
+                    </div>
+                    <div class="service left">
+                        <div class="service-right">
+                            <img src="http://placehold.it/400x200" />
+                        </div>
+                        <h3>Training and Consulting</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta justo in tellus porttitor non placerat dui pulvinar. Aliquam erat volutpat. Morbi ullamcorper libero sit amet tortor porta iaculis. Duis sit amet diam dolor. Mauris bibendum pharetra justo, sed ornare arcu scelerisque vitae. Integer molestie dignissim lacinia. Etiam sagittis consectetur iaculis. Pellentesque fringilla nulla at tortor dictum lobortis.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-right">
+                            <h3>Software Quality Auditing</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta justo in tellus porttitor non placerat dui pulvinar. Aliquam erat volutpat. Morbi ullamcorper libero sit amet tortor porta iaculis. Duis sit amet diam dolor. Mauris bibendum pharetra justo, sed ornare arcu scelerisque vitae. Integer molestie dignissim lacinia. Etiam sagittis consectetur iaculis. Pellentesque fringilla nulla at tortor dictum lobortis.
+                            </p>
+                        </div>
+                        <img src="http://placehold.it/400x200" />
+                    </div>
                 </div>
 
                 <div id="technology" class="content-contianer">
@@ -124,7 +142,7 @@
         </div>
         <div class="footer">
             <p>
-                made with  <span><a href="https://tinyurl.com/psu925e">&#9829;</a></span>
+                made with  <span><a href="https://tinyurl.com/psu925e">&#9829;</a></span> &nbsp;in oakland, ca
             </p>
         </div>
     </body>

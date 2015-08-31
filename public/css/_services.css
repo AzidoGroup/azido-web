@@ -1,0 +1,30 @@
+.service {
+	clear: both;
+	padding: 20px;
+}
+
+.service-right {
+	float: right;
+	width: 500px;
+}
+
+.service-right img {
+	float: right;
+}
+
+.terminal-wrapper {
+	height: 150px;
+	vertical-align: top;
+	float: right;
+	margin: 10px;
+	border: 1px solid #E6E1E1;
+	padding: 5px;
+}
+
+.terminal {
+	margin: 0;
+	font-family: 'Ubuntu Mono', 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	width: 400px;
+	/*padding: 10px;*/
+	/*background-color: #666;*/
+}

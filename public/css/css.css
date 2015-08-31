@@ -1,6 +1,7 @@
 @import "_header.css";
 @import "_menu.css";
 @import "_hero.css";
+@import "_services.css";
 @import "_footer.css";
 
 * {
@@ -97,4 +98,27 @@ a:hover {
 	width: 300px;
 	height: 75px;
 	padding: 5px;
+}
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
