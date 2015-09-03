@@ -45,13 +45,21 @@ header h1 a:hover {
     color: #9fdbfc;
 }
 
-header nav {
-    display: inline-block;
+header ul {
     float: right;
+    margin: 0;
 }
-header nav a {
+header ul li {
+    display: inline-block;
+}
+header ul li:hover {
+    background-color: #36B7FF;
+}
+
+header li a {
+    display: inline-block;
     line-height: 150px;
-    margin-left: 20px;
+    padding: 5px;
     color: #9fdbfc;
     font-weight: 700;
     font-size: 18px;
@@ -61,7 +69,7 @@ header nav a {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-header nav a:hover {
+header li a:hover {
     color: white;
 }
 header.smaller {
@@ -72,7 +80,7 @@ header.smaller h1#logo {
     line-height: 75px;
     font-size: 30px;
 }
-header.smaller nav a {
+header.smaller ul a {
     line-height: 75px;
 }
 
@@ -85,14 +93,14 @@ header.smaller nav a {
         line-height: 100px;
         text-align: center;
     }
-    header nav {
+    header li {
         display: block;
         float: none;
         height: 50px;
         text-align: center;
         margin: 0 auto;
     }
-    header nav a {
+    header li a {
         line-height: 50px;
         margin: 0 10px;
     }
@@ -104,10 +112,10 @@ header.smaller nav a {
         line-height: 40px;
         font-size: 30px;
     }
-    header.smaller nav {
+    header.smaller ul {
         height: 35px;
     }
-    header.smaller nav a {
+    header.smaller ul a {
         line-height: 35px;
     }
 }

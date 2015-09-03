@@ -4,6 +4,7 @@
 @import "_services.css";
 @import "_footer.css";
 @import "_about.css";
+@import "_jobs.css";
 
 * {
 	font-family: 'Muli', sans-serif;
