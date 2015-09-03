@@ -3,6 +3,7 @@
 @import "_hero.css";
 @import "_services.css";
 @import "_footer.css";
+@import "_about.css";
 
 * {
 	font-family: 'Muli', sans-serif;
