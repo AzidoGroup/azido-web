@@ -21,6 +21,7 @@
   ],
   "dependencies": {
     "jquery.typer": "*",
-    "typed.js": "*"
+    "typed.js": "*",
+    "jquery": "2.1.x"
   }
 }
