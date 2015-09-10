@@ -1,9 +1,11 @@
-.footer {
-	position: relative;
+footer {
+	position: absolute;
 	background-color: #0683c9;
+	bottom: 0;
+	width: 100%;
 }
 
-.footer p {
+footer p {
 	font-size: 12px;
 	padding-top: 30px;
 	padding-right: 5px;
@@ -13,12 +15,12 @@
 	text-align: right;
 }
 
-.footer p span {
+footer p span {
 	color: red;
 	font-size: 14px;
 }
 
-.footer p span a {
+footer p span a {
 	text-decoration: none;
 	color: red;
 }

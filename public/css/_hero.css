@@ -1,6 +1,5 @@
 .hero {
 	width: 100%;
-	padding-top: 150px;
 	position: relative;
 }
 
@@ -17,7 +16,6 @@
 	width: 100%;
 	text-align: center;
 	font-size: 60px;
-	line-height: 150px;
 }
 
 .hero h1 span {

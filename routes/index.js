@@ -1,3 +1,5 @@
+var nodemailer = require('nodemailer');
+
 module.exports = function (app, route) {
     // catchall route
 	route
@@ -8,19 +10,25 @@ module.exports = function (app, route) {
 		})
 	;
 
-    route
-        .get('/', function (request, response) {
-            response.render('index.html');
-        })
+	route
+		.get('/', function (request, response) {
+			response.render('index.html');
+		})
 
-		.get('/about', function (request, response) {
-			response.status(418);
-			response.end();
-        })
-
-		.get('/contact', function (request, response) {
-            response.render('contact.html');
-        })
+		.post('/contact-us', function (request, response) {
+			if (request.body) {
+				var transporter = nodemailer.createTransport();
+				transporter.sendMail({
+				    from: 'hello@azidogroup.com',
+				    to: 'zeph@azidogroup.com',
+				    subject: 'hello from the server!',
+				    text: 'hello world!'
+				}, function (err, msg) {
+					console.log(err, msg);
+				});
+			}
+			response.render('thank-you.html');
+		})
 
 		/*
 			Verotel postback endpoint
