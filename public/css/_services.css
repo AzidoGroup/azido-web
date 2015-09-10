@@ -1,5 +1,6 @@
 .service {
-	clear: both;
+	/*clear: both;*/
+	width: 49%;
 	padding: 20px;
 }
 
@@ -13,12 +14,9 @@
 }
 
 .terminal-wrapper {
-	height: 150px;
-	vertical-align: top;
-	float: right;
-	margin: 10px;
+	height: 200px;
+	width: 400px;
 	border: 1px solid #E6E1E1;
-	padding: 5px;
 }
 
 .terminal {
@@ -27,4 +25,10 @@
 	width: 400px;
 	/*padding: 10px;*/
 	/*background-color: #666;*/
+}
+
+
+.temp-service {
+	float: left;
+	margin: 0 80px 40px 0;
 }

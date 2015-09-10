@@ -26,6 +26,10 @@
 	max-width: 95%;
 }
 
+#technology {
+	clear: both;
+}
+
 .tech-logo {
 	margin-right: 30px;
 }
