@@ -29,3 +29,5 @@ node_modules
 
 # Rando stuff
 .DS_Store
+
+public/vendor

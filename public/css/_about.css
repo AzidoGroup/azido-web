@@ -1,0 +1,35 @@
+#about {
+
+}
+
+.profile {
+	width: 475px;
+	float: left;
+	padding: 5px;
+	height: 400px;
+}
+
+.profile .headshot-wrapper {
+	text-align: center;
+}
+
+.profile h3 {
+	text-align: center;
+}
+
+.headshot {
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.bio {
+	max-width: 95%;
+}
+
+#technology {
+	clear: both;
+}
+
+.tech-logo {
+	margin-right: 30px;
+}

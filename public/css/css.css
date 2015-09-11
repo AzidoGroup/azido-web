@@ -1,0 +1,141 @@
+@import "_header.css";
+@import "_menu.css";
+@import "_hero.css";
+@import "_services.css";
+@import "_footer.css";
+@import "_about.css";
+@import "_jobs.css";
+
+* {
+	font-family: 'Muli', sans-serif;
+	/*font-family: 'Arial', sans-serif;*/
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+}
+
+input, textarea, select {
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#content h2 {
+	padding-top: 75px;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#container {
+	padding-top: 150px;
+	min-height: 100%;
+	position: relative;
+}
+.container:after {
+	content: "";
+	display: block;
+}
+.slogan-wrapper {
+	width: 1000px;
+	margin: auto 50px;
+}
+
+.slogan-headline {
+	text-align: center;
+}
+
+.slogan-wrapper h1, .slogan-wrapper h3 {
+	text-align: center;
+}
+
+.slogan-container {
+	display: inline-block;
+	margin: 0;
+	width: 450px;
+}
+
+.slogan-container .left {
+	float: left;
+}
+.content-contianer {
+	margin-top: 50px;
+}
+.clear-left {
+	clear: left;
+}
+
+.contact-wrapper {
+	width: 600px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+.contact h3 {
+	margin-left: 20px;
+}
+
+.field {
+	padding: 5px;
+	line-height: 1.5em;
+}
+
+.field label {
+	display: inline-block;
+	text-align: right;
+	font-weight: bold;
+	margin: 5px;
+	width: 200px;
+	height: 100%;
+}
+
+.field label.textarea-label {
+	vertical-align: top;
+}
+
+.field input {
+	width: 300px;
+	padding: 5px;
+}
+
+.field textarea {
+	width: 300px;
+	height: 75px;
+	padding: 5px;
+}
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

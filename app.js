@@ -5,9 +5,8 @@ var config = {
 	port: process.env.port || 3000
 };
 
-app.use(bodyParser());
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({extended: false}));
 
 app.use('/public', express.static(__dirname + '/public'));
 
@@ -24,5 +23,5 @@ var server = app.listen(config.port, function () {
 	var host = server.address().address;
 	var port = server.address().port;
 
-	console.log('Example app listening at http://%s:%s', host, port);
+	console.log('Application started, listening at http://%s:%s', host, port);
 });
